@@ -1,0 +1,76 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+}
+
+header img {
+    max-width: 80%; /* Reduzindo a largura da imagem para 80% do contêiner */
+    height: auto;
+    background-color: #1E1E1E; /* Mantendo o fundo preto */
+}
+
+h1 {
+    text-align: center;
+    color: #1E1E1E;
+    margin-top: 20px;
+}
+
+.image-text-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.circular-image {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+    border: 5px solid #1E1E1E;
+}
+
+section {
+    margin: 30px 20px;
+}
+
+.formularios {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#abrirFormularioBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#abrirFormularioBtn:hover {
+    background-color: #45a049;
+}
+
+#informacoes {
+    background-color: #008080; /* Turquesa */
+    color: #FFF;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Adiciona bordas arredondadas de 10px */
+}
+
+#informacoes p {
+    margin: 15px 0;
+}
